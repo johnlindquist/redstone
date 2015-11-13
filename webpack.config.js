@@ -3,7 +3,7 @@ var webpack = require('webpack');
 
 module.exports = {
   resolve: {
-    extensions: ['', '.scss', '.ts', '.js']
+    extensions: ['', '.ts', '.js']
   },
 
   plugins: [
@@ -21,10 +21,6 @@ module.exports = {
 
   module: {
     loaders: [
-      {
-        test: /\.ts$/,
-        loader: 'ts-loader'
-      },
       {
         test: /\.css$/,
         loader: 'style-loader'
