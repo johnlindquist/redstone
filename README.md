@@ -1,5 +1,4 @@
-# oredev-angular2
-## Demo Code from Oredev 2015 Angular2 demos
+# redstone
 
 Basic sample ng2 app. 
 
