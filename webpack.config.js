@@ -7,7 +7,8 @@ module.exports = {
   },
 
   plugins: [
-    new LiveReloadPlugin()
+    new LiveReloadPlugin(),
+    new webpack.HotModuleReplacementPlugin()
   ],
 
   entry: './src/main.ts',
