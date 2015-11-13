@@ -22,8 +22,8 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.css$/,
-        loader: 'style-loader'
+        test: /\.ts$/,
+        loader: 'ts-loader'
       }
     ]
   },
